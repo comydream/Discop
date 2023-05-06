@@ -12,6 +12,13 @@ Discop: Provably Secure Steganography in Practice Based on “Distribution Copie
 If you find this work useful, please consider citing:
 
 ```
-TODO
+@inproceedings{dingDiscopProvablySecure2023,
+  title      = {Discop: {{Provably Secure Steganography}} in {{Practice Based}} on ``{{Distribution Copies}}''},
+  shorttitle = {Discop},
+  booktitle  = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
+  author     = {Ding, Jinyang and Chen, Kejiang and Wang, Yaofei and Zhao, Na and Zhang, Weiming and Yu, Nenghai},
+  year       = {2023},
+  month      = may
+}
 ```
 
