@@ -12,19 +12,19 @@ Discop: Provably Secure Steganography in Practice Based on “Distribution Copie
 If you find this work useful, please consider citing:
 
 ```
-@INPROCEEDINGS {dingDiscopProvablySecure2023,
-  author = {J. Ding and K. Chen and Y. Wang and N. Zhao and W. Zhang and N. Yu},
-  booktitle = {2023 2023 IEEE Symposium on Security and Privacy (SP) (SP)},
-  title = {Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”},
+@inproceedings{dingDiscopProvablySecure2023,
+  title = {Discop: {{Provably Secure Steganography}} in {{Practice Based}} on ``{{Distribution Copies}}''},
+  shorttitle = {Discop},
+  booktitle = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
+  author = {Ding, Jinyang and Chen, Kejiang and Wang, Yaofei and Zhao, Na and Zhang, Weiming and Yu, Nenghai},
   year = {2023},
-  volume = {},
-  issn = {},
-  pages = {2238-2255},
-  keywords = {},
+  month = may,
+  pages = {2238--2255},
+  publisher = {{IEEE Computer Society}},
+  address = {Los Alamitos, CA, USA},
   doi = {10.1109/SP46215.2023.00155},
   url = {https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155},
-  publisher = {IEEE Computer Society},
-  address = {Los Alamitos, CA, USA},
-  month = {may}
+  isbn = {978-1-66549-336-9},
+  langid = {english}
 }
 ```
