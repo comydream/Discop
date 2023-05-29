@@ -13,18 +13,18 @@ If you find this work useful, please consider citing:
 
 ```
 @inproceedings{dingDiscopProvablySecure2023,
-  title = {Discop: {{Provably Secure Steganography}} in {{Practice Based}} on ``{{Distribution Copies}}''},
+  title      = {Discop: {{Provably Secure Steganography}} in {{Practice Based}} on ``{{Distribution Copies}}''},
   shorttitle = {Discop},
-  booktitle = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
-  author = {Ding, Jinyang and Chen, Kejiang and Wang, Yaofei and Zhao, Na and Zhang, Weiming and Yu, Nenghai},
-  year = {2023},
-  month = may,
-  pages = {2238--2255},
-  publisher = {{IEEE Computer Society}},
-  address = {Los Alamitos, CA, USA},
-  doi = {10.1109/SP46215.2023.00155},
-  url = {https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155},
-  isbn = {978-1-66549-336-9},
-  langid = {english}
+  booktitle  = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
+  author     = {Ding, Jinyang and Chen, Kejiang and Wang, Yaofei and Zhao, Na and Zhang, Weiming and Yu, Nenghai},
+  year       = {2023},
+  month      = may,
+  pages      = {2238--2255},
+  publisher  = {{IEEE Computer Society}},
+  address    = {Los Alamitos, CA, USA},
+  doi        = {10.1109/SP46215.2023.00155},
+  url        = {https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155},
+  isbn       = {978-1-66549-336-9},
+  langid     = {english}
 }
 ```
