@@ -1,8 +1,12 @@
+***Coming soon ...***
+
+> The code is still being collated.
+
 
 ```
 .
-├── tacotron
-├── univoc
+├── tacotron/
+├── univoc/
 ├── config.py
 ├── get_statistics.py
 ├── model.py
@@ -13,5 +17,3 @@
 ├── stega_tts.py
 └── utils.py
 ```
-
-***Coming soon ...***

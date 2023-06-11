@@ -45,7 +45,9 @@ python src/setup.py build_ext --build-lib=src/
 
 ### Run Single Example
 
-Please note that the program may automatically download the required pretrained models and datasets during the first run.
+You can modify the default settings for each generation task in `config.py`.
+
+The program may automatically download the required pretrained models and datasets during the first run.
 
 ```shell
 python src/run_single_example.py
@@ -62,6 +64,10 @@ python src/get_statistics.py
 In the text generation and image completion tasks, we directly employ the pre-trained models provided by [Hugging Face](https://huggingface.co/models).
 
 In the text-to-speech (TTS) task, we utilize publicly available pre-trained models from [bshall/Tacotron](https://github.com/bshall/Tacotron/tree/main/tacotron) and [bshall/UniversalVocoding](https://github.com/bshall/UniversalVocoding).
+We have incorporated them into our code repository (`src/tacotron/` and `src/univoc/`) and made some adaptations as needed.
+
+- Add `src/tacotron/TTS_cleaner.py`, which borrows from [Coqui.ai TTS](https://github.com/coqui-ai/TTS/blob/main/TTS/tts/utils/text/cleaners.py).
+- Add the `encode_speech()`, `decode_speech()`, and `random_sample_speech()` functions in `src/univoc/model.py` to facilitate Discop’s message embedding and extraction, as well as random sampling.
 
 ## Citation
 
