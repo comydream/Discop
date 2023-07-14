@@ -6,7 +6,7 @@ Discop: Provably Secure Steganography in Practice Based on “Distribution Copie
 
 In [IEEE Symposium on Security and Privacy (IEEE S&P) 2023](https://sp2023.ieee-security.org/)
 
-[[PDF]](https://dingjinyang.github.io/uploads/Discop_sp23_paper.pdf) [[Cite]](#citation) [[Slides]](https://dingjinyang.github.io/uploads/Discop_sp23_slides.pdf) [[IEEE Computer Society]](https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155) [[Chinese Blog Post]](https://comydream.github.io/2023/06/07/discop-sp23/)
+[[PDF]](https://dingjinyang.github.io/uploads/Discop_sp23_paper.pdf) [[Cite]](#citation) [[Slides]](https://dingjinyang.github.io/uploads/Discop_sp23_slides.pdf) [[IEEE Computer Society]](https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155) [[Blog Post (in Chinese)]](https://comydream.github.io/2023/06/07/discop-sp23/)
 
 ## Brief Overview
 
@@ -22,8 +22,6 @@ The embedding rate can reach about 0.95 of its theoretical limit.
 
 ## Usage
 
-> The code is still being collated.
-
 ### Preparation
 
 First, please ensure that you have installed all the required libraries for this repository.
@@ -35,7 +33,8 @@ conda create -n discop python=3.8.12
 conda activate discop
 
 # Visit the PyTorch website (https://pytorch.org/get-started/locally/) for installation commands tailored to your environment
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch -y
+# We have not tested PyTorch versions other than v1.12.0.
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 # Install other dependencies
 python -m pip install -r requirements.txt
 
@@ -45,7 +44,7 @@ python src/setup.py build_ext --build-lib=src/
 
 ### Run Single Example
 
-You can modify the default settings for each generation task in `config.py`.
+You can modify the default settings for each generation task in `src/config.py`.
 
 The program may automatically download the required pretrained models and datasets during the first run.
 

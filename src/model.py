@@ -19,6 +19,8 @@ def get_model(settings: Settings) -> PreTrainedModel:
             model = ImageGPTForCausalImageModeling.from_pretrained(settings.model_name).to(settings.device)
         else:
             raise NotImplementedError
+    else:
+        raise NotImplementedError
     model.eval()
     return model
 
