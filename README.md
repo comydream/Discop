@@ -6,7 +6,7 @@ Discop: Provably Secure Steganography in Practice Based on “Distribution Copie
 
 In [IEEE Symposium on Security and Privacy (IEEE S&P) 2023](https://sp2023.ieee-security.org/)
 
-[[PDF]](https://dingjinyang.github.io/uploads/Discop_sp23_paper.pdf) [[Cite]](#citation) [[Slides]](https://dingjinyang.github.io/uploads/Discop_sp23_slides.pdf) [[IEEE Computer Society]](https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155) [[Blog Post (in Chinese)]](https://comydream.github.io/2023/06/07/discop-sp23/)
+[[PDF]](https://dingjinyang.github.io/uploads/Discop_sp23_paper.pdf) [[Cite]](#citation) [[Slides]](https://dingjinyang.github.io/uploads/Discop_sp23_slides.pdf) [[DOI]](https://doi.org/10.1109/SP46215.2023.10179287) [[Blog Post (in Chinese)]](https://comydream.github.io/2023/06/07/discop-sp23/)
 
 ## Brief Overview
 
