@@ -73,7 +73,7 @@ We have incorporated them into our code repository (`src/tacotron/` and `src/uni
 If you find this work useful, please consider citing:
 
 ```
-@inproceedings{dingDiscopProvablySecure2023,
+@inproceedings{dingDiscopProvablySecure2023a,
   title      = {Discop: {{Provably Secure Steganography}} in {{Practice Based}} on ``{{Distribution Copies}}''},
   shorttitle = {Discop},
   booktitle  = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
@@ -83,8 +83,8 @@ If you find this work useful, please consider citing:
   pages      = {2238--2255},
   publisher  = {{IEEE Computer Society}},
   address    = {Los Alamitos, CA, USA},
-  doi        = {10.1109/SP46215.2023.00155},
-  url        = {https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00155},
+  doi        = {10.1109/SP46215.2023.10179287},
+  url        = {https://ieeexplore.ieee.org/document/10179287},
   isbn       = {978-1-66549-336-9},
   langid     = {english}
 }
