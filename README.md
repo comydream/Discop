@@ -6,17 +6,17 @@ Discop: Provably Secure Steganography in Practice Based on “Distribution Copie
 
 In [IEEE Symposium on Security and Privacy (IEEE S&P) 2023](https://sp2023.ieee-security.org/)
 
-[[PDF]](https://dingjinyang.github.io/uploads/Discop_sp23_paper.pdf) [[Cite]](#citation) [[Slides]](https://dingjinyang.github.io/uploads/Discop_sp23_slides.pdf) [[DOI]](https://doi.org/10.1109/SP46215.2023.10179287) [[Blog Post (in Chinese)]](https://comydream.github.io/2023/06/07/discop-sp23/)
+[![paper](https://img.shields.io/badge/paper-red)](https://dingjinyang.github.io/uploads/Discop_sp23_paper.pdf) [![cite](https://img.shields.io/badge/cite-orange)](#citation) [![slides](https://img.shields.io/badge/slides-yellow)](https://dingjinyang.github.io/uploads/Discop_sp23_slides.pdf) [![doi](https://img.shields.io/badge/doi-green)](https://doi.org/10.1109/SP46215.2023.10179287) [![blog_post](https://img.shields.io/badge/blog_post_%28in_Chinese%29-blue)](https://comydream.github.io/2023/06/07/discop-sp23/) [![semantic_scholar](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F200526f0cfaf9ac9e452890b3ef7bc1a4b42c98a?fields=citationCount&query=citationCount&prefix=cited%20by%20&logo=semanticscholar&label=%20&labelColor=purple&color=purple)](https://www.semanticscholar.org/paper/Discop%3A-Provably-Secure-Steganography-in-Practice-Ding-Chen/200526f0cfaf9ac9e452890b3ef7bc1a4b42c98a)
 
 ## Brief Overview
 
 Given a probability distribution to sample from, if we want to embed $n$ bits, we construct $2^{n}$ copies of the distribution by rotation and use the copy index to express information.
 
-![](rotate.png)
+![distribution copies](rotate.png)
 
 To improve the embedding rate, we decompose the multi-variate distribution into multiple bi-variate distributions through a Huffman tree.
 
-![](recursion.png)
+![recursion](recursion.png)
 
 The embedding rate can reach about 0.95 of its theoretical limit.
 
@@ -72,20 +72,23 @@ We have incorporated them into our code repository (`src/tacotron/` and `src/uni
 
 If you find this work useful, please consider citing:
 
-```
-@inproceedings{dingDiscopProvablySecure2023a,
-  title      = {Discop: {{Provably Secure Steganography}} in {{Practice Based}} on ``{{Distribution Copies}}''},
+```latex
+@inproceedings{dingDiscopProvablySecure2023,
+  title      = {Discop: Provably Secure Steganography in Practice Based on ``Distribution Copies''},
   shorttitle = {Discop},
-  booktitle  = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
+  booktitle  = {2023 {IEEE} Symposium on Security and Privacy ({SP})},
   author     = {Ding, Jinyang and Chen, Kejiang and Wang, Yaofei and Zhao, Na and Zhang, Weiming and Yu, Nenghai},
   year       = {2023},
   month      = may,
   pages      = {2238--2255},
-  publisher  = {{IEEE Computer Society}},
-  address    = {Los Alamitos, CA, USA},
+  publisher  = {{IEEE}},
   doi        = {10.1109/SP46215.2023.10179287},
   url        = {https://ieeexplore.ieee.org/document/10179287},
   isbn       = {978-1-66549-336-9},
   langid     = {english}
 }
 ```
+
+## Further Reading
+
+[comydream/provably-secure-steganography: Provably Secure Steganography](https://github.com/comydream/provably-secure-steganography)
